@@ -80,7 +80,7 @@
             // 
             // txtNumero2
             // 
-            this.txtNumero2.Location = new System.Drawing.Point(140, 127);
+            this.txtNumero2.Location = new System.Drawing.Point(159, 126);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(194, 22);
             this.txtNumero2.TabIndex = 9;
@@ -97,7 +97,7 @@
             // 
             // txtNumero1
             // 
-            this.txtNumero1.Location = new System.Drawing.Point(144, 74);
+            this.txtNumero1.Location = new System.Drawing.Point(159, 74);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(194, 22);
             this.txtNumero1.TabIndex = 7;
