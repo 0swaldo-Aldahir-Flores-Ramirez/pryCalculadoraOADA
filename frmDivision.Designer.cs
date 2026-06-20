@@ -40,42 +40,47 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(121, 24);
+            this.label3.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(140, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 16);
+            this.label3.Size = new System.Drawing.Size(81, 20);
             this.label3.TabIndex = 13;
             this.label3.Text = "División";
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(12, 260);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(72, 16);
+            this.lblResultado.Size = new System.Drawing.Size(99, 20);
             this.lblResultado.TabIndex = 12;
             this.lblResultado.Text = "Resultado:";
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(75, 200);
+            this.btnCalcular.BackColor = System.Drawing.Color.LightCoral;
+            this.btnCalcular.Location = new System.Drawing.Point(140, 206);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(88, 37);
+            this.btnCalcular.Size = new System.Drawing.Size(95, 38);
             this.btnCalcular.TabIndex = 11;
             this.btnCalcular.Text = "Calcular";
-            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.UseVisualStyleBackColor = false;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click_1);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Consolas", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 16);
+            this.label2.Size = new System.Drawing.Size(126, 15);
             this.label2.TabIndex = 10;
             this.label2.Text = "Ingrese numero 2:";
             // 
             // txtNumero2
             // 
-            this.txtNumero2.Location = new System.Drawing.Point(140, 127);
+            this.txtNumero2.Location = new System.Drawing.Point(159, 126);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(194, 22);
             this.txtNumero2.TabIndex = 9;
@@ -83,15 +88,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Consolas", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 16);
+            this.label1.Size = new System.Drawing.Size(126, 15);
             this.label1.TabIndex = 8;
             this.label1.Text = "Ingrese numero 1:";
             // 
             // txtNumero1
             // 
-            this.txtNumero1.Location = new System.Drawing.Point(140, 75);
+            this.txtNumero1.Location = new System.Drawing.Point(159, 74);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(194, 22);
             this.txtNumero1.TabIndex = 7;
@@ -100,7 +106,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(347, 300);
+            this.BackColor = System.Drawing.Color.MistyRose;
+            this.ClientSize = new System.Drawing.Size(365, 300);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnCalcular);
